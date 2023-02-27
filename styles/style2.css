@@ -1,0 +1,347 @@
+body, p, div, a, ul, li, h1, h2, h3, h4, h5, h6, input, span, button { 
+    font-family: 'Open Sans', sans-serif;
+}
+body{ padding-bottom: 0 !important;display: block !important;background: #dafdee !important;font-size: 16px;}
+.app {
+    overflow-x: hidden;
+}
+.row.template-content {
+    margin: 12px 0 40px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3a3939;
+}
+.nice-select {
+    font-size: 18px !important;
+    height: 48px !important;
+    padding-top: 3px !important;
+    width: 240px !important;
+}
+.app .calculator p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #3a3939;
+}
+.app .description {
+    padding-bottom: 30px;
+}
+article.one_third i.fa {
+ font-size: 36px;
+    color: #03aebf;
+}
+span#footer-mobile {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    display: none;
+}
+#footer-desk {
+    font-size: 12px;
+    color: #000 !important;
+    padding-bottom: 30px;
+}
+#footer-desk a {
+    color: #1fa874;
+}
+.app .game h1 {
+    padding: 24px var(--v_gutter);
+    background-image: linear-gradient(180deg,#01978f 0%,#6fc1e6 100%) !important;
+    width: 100% !important;
+    font-size: 30px;
+    font-weight: 600;
+}
+.app .game h2 { 
+        padding: 0;
+    background: none;
+    color: #000000c2;
+    margin-bottom: 30px;
+    margin-top: 56px;
+}
+.formsection.form-group {
+    display: flex;
+}
+footer {
+    display: block;
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+    background: #037ee5;
+    color: #fff;
+    font-size: 13px;
+    padding: 17px 0;
+    margin-top: 50px;
+}
+.app-store span.download-cta {
+    font-size: 30px;
+}
+.calculator {
+    width: 85%;
+    margin: 0 auto;
+}
+.calculator .form-group label {
+    font-size: 20px;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+.calculator .form-group input.form-control {
+    width: 95%;
+    padding: 13px 10px;
+    border-radius: 7px;
+    margin-bottom: 22px;
+    border: 1px solid #ff8100;
+}
+.action form {
+    display: inline-block;
+    margin: 0 auto;
+}
+.action form button.btn {
+    padding: 15px 32px !important;
+    transition: none !important;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 15px;
+    height: unset;
+}
+.action {
+    text-align: center;
+    margin-top: 20px;
+}
+.calculator button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 47px;
+    background: #1b4487;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: 700;
+    transition: .3s ease;
+    transform: scale(1);
+    border: 0px;
+    cursor: pointer;
+}
+.modal-header .close {
+    margin-top: 2px;
+    position: absolute;
+    right: 10px;
+    color: #000 !important;
+    opacity: 1;
+    display: inline;
+}
+
+div#tpay {
+    font-size: 19px;
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    color: #ff8100;
+    font-weight: 600;
+}
+.app .description ul {
+    color: #656567;
+    line-height: 28px;
+    font-size: 16px;
+    padding-left: 31px;
+    margin-bottom: 17px;
+    list-style: initial;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+background-color: #fefefe;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #888;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+div#modal-calculators ul.entry-details-content {
+    list-style: none;
+    line-height: 35px;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+}
+div#modal-calculators h3.title-project-detail {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.app.qubec, .app.german-salary, .app.singapore-tax, .app.rref-cal, .app.german-tax, .app.gate-calc {
+    width: 50vw;
+    max-width: 1000px;
+}
+@media only screen and (min-width: 769px) {
+
+.app-store {
+    display: block;
+}
+}
+
+.calc_container {
+    width: 100% !important;
+}
+.app.gate-calc {
+    width: 67vw;
+    max-width: 1000px;
+}
+.text_calcul {
+    width: auto !important;
+}
+.app .calculator {
+    width: 90%;
+    margin: 0 auto;
+}
+.app .calc {
+    width: 90%;
+    margin: 0 auto;
+}
+.rref table tbody tr td, table tbody tr th {
+    padding: 15px 20px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.uc-grid-col {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.grid-x {
+    width: 100%;
+}
+form#paySelectForm {
+    width: 100% !important;
+}
+.cell {
+    background: #f2f2f2;
+    display: flex;
+}
+.cell input {
+    font-size: 20px;
+}
+.cell label {
+    width: 50%;
+    padding-top: 13px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.cell2 h2 {
+    text-align: center;
+    padding: 12px 0;
+    background: #ff8100;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+.EquitySelectWrap, .DeliverySelectWrap, .FutureSelectWrap, .FutureSelectWrap {
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+.Brokerage_costing span, .costing span {
+    font-size: 20px;
+    line-height: 38px;
+    color: #0465d4;
+}
+.turnover {
+    display: flex;
+    padding: 10px;
+}
+.cell3 {
+    padding: 0px 18px;
+}
+.cell4 {
+    padding: 0px 20px;
+}
+.cell5 {
+    padding: 0px 20px;
+}
+.turnover .small-6 {
+    width: 50%;
+    text-align: left;
+}
+.turnover .text-right {
+    font-size: 18px;
+    color: #ff8100;
+}
+form#matrixform input {
+    font-size: 20px;
+    padding-bottom: 8px;
+    height: auto;
+}
+@media only screen and (min-width: 768px) {
+    button.btn.btn-default.reset {
+    width: 36%;
+    display: inline-block;
+    font-size: 16px;
+    height: 45px;
+}
+button.btn.btn-default.create-matrix {
+    width: 36%;
+    display: inline-block;
+    height: 45px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+}
+@media only screen and (max-width: 768px) {
+.app .game h1, .app .game h2 {
+    font-size: 30px;
+}
+.app .game h1 {
+    line-height: 25px !important;
+}
+.app.qubec, .app.german-salary, .app.singapore-tax, .app.rref-cal, .app.german-tax, .app.gate-calc {
+    width: auto;
+    max-width: 1000px;
+    margin:0;
+}
+span#footer-mobile { display: block;}
+#footer-desk {
+    padding-right: 20px;
+        font-size: 10px;
+}
+}
+
+@media only screen and (max-width: 450px) {
+    .templates .col-md-4.col-sm-6.col-xs-6 {
+    width: 100%;
+}
+.choose-template {
+    font-size: 16px;
+}
+}
+
+
+
+
+
+
